@@ -1,0 +1,79 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : 对路径“f:\c++\zoomlion\x64\release\zoomlion.exe”的访问被拒绝。
+  1.cpp
+f:\c++\zoomlion\zoomlion\1.cpp(307): warning C4101: “sc”: 未引用的局部变量
+  f:\c++\zoomlion\zoomlion\1.cpp(412): note: 参见对正在编译的函数 模板 实例化“int zk::my_algorithm_pos_1<_Ty>(T &,int,int,int)”的引用
+          with
+          [
+              _Ty=cv::String,
+              T=cv::String
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(220): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(324): note: 参见对正在编译的函数 模板 实例化“double zk::Rcognition_roller<int*>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+  f:\c++\zoomlion\zoomlion\1.cpp(412): note: 参见对正在编译的函数 模板 实例化“int zk::my_algorithm_pos_1<_Ty>(T &,int,int,int)”的引用
+          with
+          [
+              _Ty=cv::String,
+              T=cv::String
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(220): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+f:\c++\zoomlion\zoomlion\1.cpp(232): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\c++\zoomlion\zoomlion\1.cpp(127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(345): note: 参见对正在编译的函数 模板 实例化“int zk::count_vague<int*>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(89): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(225): note: 参见对正在编译的函数 模板 实例化“std::vector<int,std::allocator<_Ty>> zk::norm<T>(T &)”的引用
+          with
+          [
+              _Ty=int,
+              T=int *
+          ]
+  f:\c++\zoomlion\zoomlion\1.cpp(324): note: 参见对正在编译的函数 模板 实例化“double zk::Rcognition_roller<int*>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(185): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(244): note: 参见对正在编译的函数 模板 实例化“int zk::distance_Trough<std::vector<int,std::allocator<_Ty>>>(T &)”的引用
+          with
+          [
+              _Ty=int,
+              T=std::vector<int,std::allocator<int>>
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(74): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(141): note: 参见对正在编译的函数 模板 实例化“int zk::min_x_double<double[4]>(T (&))”的引用
+          with
+          [
+              T=double [4]
+          ]
+  f:\c++\zoomlion\zoomlion\1.cpp(345): note: 参见对正在编译的函数 模板 实例化“int zk::count_vague<int*>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(77): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+f:\c++\zoomlion\zoomlion\1.cpp(59): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(90): note: 参见对正在编译的函数 模板 实例化“int zk::min_x<T>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+  f:\c++\zoomlion\zoomlion\1.cpp(225): note: 参见对正在编译的函数 模板 实例化“std::vector<int,std::allocator<_Ty>> zk::norm<T>(T &)”的引用
+          with
+          [
+              _Ty=int,
+              T=int *
+          ]
+f:\c++\zoomlion\zoomlion\1.cpp(47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c++\zoomlion\zoomlion\1.cpp(91): note: 参见对正在编译的函数 模板 实例化“int zk::max_x<T>(T &)”的引用
+          with
+          [
+              T=int *
+          ]
+LINK : fatal error LNK1104: 无法打开文件“F:\c++\zoomlion\x64\Release\zoomlion.exe”
